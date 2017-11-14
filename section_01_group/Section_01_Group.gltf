@@ -1,0 +1,286 @@
+{
+	"asset": {
+		"generator": "Unity 2017.2.0f3",
+		"extras": {
+			"exporterVersion" : "2.1.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 515,
+			"max": [ 0.5, 0.5, 0.5 ],
+			"min": [ -0.5, -0.5, -0.5 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 6180,
+			"componentType": 5126,
+			"count": 515,
+			"max": [ 0.999975, 1, 0.9999735 ],
+			"min": [ -0.999975, -1, -0.999977 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 515,
+			"max": [ 0.9983337, 0.9758912 ],
+			"min": [ -0.0009213686, 0.01762898 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 4120,
+			"componentType": 5126,
+			"count": 515,
+			"max": [ 1, 0.6538535 ],
+			"min": [ 0, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 515,
+			"max": [ 1, 0.056131, 1, 1 ],
+			"min": [ -1, -0.06598339, -1, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 2304,
+			"max": [ 514 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 12360,
+			"componentType": 5126,
+			"count": 24,
+			"max": [ 0.5, 0.5, 0.5 ],
+			"min": [ -0.5, -0.5, -0.5 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 12648,
+			"componentType": 5126,
+			"count": 24,
+			"max": [ 1, 1, 1 ],
+			"min": [ -1, -1, -1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 8240,
+			"componentType": 5126,
+			"count": 24,
+			"max": [ 1, 1 ],
+			"min": [ 0, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 8432,
+			"componentType": 5126,
+			"count": 24,
+			"max": [ 0.9966581, 0.6528358 ],
+			"min": [ 0.004055766, 0.004055766 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 8240,
+			"componentType": 5126,
+			"count": 24,
+			"max": [ 0, 0, 1, 1 ],
+			"min": [ -1, 0, -1, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 4608,
+			"componentType": 5123,
+			"count": 36,
+			"max": [ 23 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 34864,
+			"uri": "section_01_group.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 4680,
+			"byteOffset": 30184,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 8624,
+			"byteOffset": 0,
+			"byteStride": 8,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 12936,
+			"byteOffset": 8624,
+			"byteStride": 12,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 8624,
+			"byteOffset": 21560,
+			"byteStride": 16,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Models/Catalog/Materials/Textures/aluminium generic brushed diffuse.jpg"
+		},
+		{
+			"uri": "Assets/Models/Catalog/Materials/Textures/aluminium generic brushed metalness_converted_metalRoughness.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [0.8161765, 0.8161765, 0.8161765, 1],
+				"metallicRoughnessTexture" : {
+					"index" : 1,
+					"texCoord" : 0
+				},
+				"metallicFactor": 1,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"occlusionTexture" : {
+				"index" : 0,
+				"texCoord" : 0,
+				"strength" : 0.409
+			},
+			"doubleSided": false,
+			"name": "Aluminium generic brushed"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_Sphere_772Section_01_3D_Mesh",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TEXCOORD_1": 3,
+						"TANGENT": 4
+					},
+					"indices": 5,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "mesh_Cube_768Section_01_Floor",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 6,
+						"NORMAL": 7,
+						"TEXCOORD_0": 8,
+						"TEXCOORD_1": 9,
+						"TANGENT": 10
+					},
+					"indices": 11,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_correctionMatrix",
+			"children": [
+				3
+			],
+			"matrix": [-1, 0, -8.742278E-08, 0, 0, 1, 0, 0, 8.742278E-08, 0, -1, 0, 0, 0, 0, 1]
+		},
+		{
+			"name": "node_Section_01_3D_Mesh_-73849548",
+			"mesh": 0,
+			"translation": [ 0, 1.7, 0],
+			"scale": [ 3, 3, 3]
+		},
+		{
+			"name": "node_Section_01_Floor_-73849550",
+			"mesh": 1,
+			"translation": [ 0, 0.1, 0],
+			"scale": [ 5, 5, 0.2000001],
+			"rotation": [-0.7071068, 0, 0, -0.7071068]
+		},
+		{
+			"name": "node_section_01_group_38624",
+			"children": [
+				1,
+				2
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		},
+		{
+			"magFilter": 9729,
+			"minFilter": 9729,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"sampler": 0,
+			"source": 1
+		}
+	]
+}
